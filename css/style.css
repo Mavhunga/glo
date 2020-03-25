@@ -1,9 +1,4 @@
-/*!
- * Bootstrap v4.2.1 (https://getbootstrap.com/)
- * Copyright 2011-2018 The Bootstrap Authors
- * Copyright 2011-2018 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -137,7 +132,7 @@ a {
   text-decoration: none;
   background-color: transparent; }
   a:hover {
-    color: #0056b3;
+    color: #007bff;
     text-decoration: underline; }
 
 a:not([href]):not([tabindex]) {
@@ -3401,7 +3396,7 @@ input[type="button"].btn-block {
   .nav-tabs .nav-link.active,
   .nav-tabs .nav-item.show .nav-link {
     color: #495057;
-    background-color: #fff;
+    background-color: #dedede;
     border-color: #dee2e6 #dee2e6 #fff; }
   .nav-tabs .dropdown-menu {
     margin-top: -1px;
@@ -4878,7 +4873,7 @@ a.close.disabled {
   .bs-popover-top .arrow::before, .bs-popover-auto[x-placement^="top"] .arrow::before {
     bottom: 0;
     border-top-color: rgba(0, 0, 0, 0.25); }
-  
+
   .bs-popover-top .arrow::after,
   .bs-popover-auto[x-placement^="top"] .arrow::after {
     bottom: 1px;
@@ -4898,7 +4893,7 @@ a.close.disabled {
   .bs-popover-right .arrow::before, .bs-popover-auto[x-placement^="right"] .arrow::before {
     left: 0;
     border-right-color: rgba(0, 0, 0, 0.25); }
-  
+
   .bs-popover-right .arrow::after,
   .bs-popover-auto[x-placement^="right"] .arrow::after {
     left: 1px;
@@ -4915,7 +4910,7 @@ a.close.disabled {
   .bs-popover-bottom .arrow::before, .bs-popover-auto[x-placement^="bottom"] .arrow::before {
     top: 0;
     border-bottom-color: rgba(0, 0, 0, 0.25); }
-  
+
   .bs-popover-bottom .arrow::after,
   .bs-popover-auto[x-placement^="bottom"] .arrow::after {
     top: 1px;
@@ -4944,7 +4939,7 @@ a.close.disabled {
   .bs-popover-left .arrow::before, .bs-popover-auto[x-placement^="left"] .arrow::before {
     right: 0;
     border-left-color: rgba(0, 0, 0, 0.25); }
-  
+
   .bs-popover-left .arrow::after,
   .bs-popover-auto[x-placement^="left"] .arrow::after {
     right: 1px;
@@ -8010,7 +8005,7 @@ a {
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
   transition: .3s all ease;
-  color: #00bd56; }
+  color: #fff; }
   a:hover, a:focus {
     text-decoration: none;
     color: #00bd56;
@@ -8019,7 +8014,7 @@ a {
 h1, h2, h3, h4, h5,
 .h1, .h2, .h3, .h4, .h5 {
   line-height: 1.5;
-  color: rgba(0, 0, 0, 0.8);
+  color: rgba(247, 232, 232, 0.8);
   font-weight: 400;
   font-family: "Oswald", Arial, sans-serif; }
 
@@ -8048,7 +8043,7 @@ h1, h2, h3, h4, h5,
     padding: 0; }
     @media (max-width: 1199.98px) {
       .ftco-navbar-light .container {
-        background: #00bd56; } }
+        background: #007bff; } }
     @media (min-width: 1200px) {
       .ftco-navbar-light .container {
         background: rgba(255, 255, 255, 0.1);
@@ -8098,7 +8093,7 @@ h1, h2, h3, h4, h5,
     text-transform: uppercase;
     opacity: 1 !important; }
     .ftco-navbar-light .navbar-nav > .nav-item > .nav-link:hover, .ftco-navbar-light .navbar-nav > .nav-item > .nav-link:focus {
-      color: #00bd56; }
+      color: #007bff; }
     @media (max-width: 991.98px) {
       .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
         padding-left: 0;
@@ -8250,8 +8245,8 @@ h1, h2, h3, h4, h5,
 
 .navbar-brand {
   font-weight: 400;
-  font-size: 24px;
-  padding-right: 3em;
+  font-size: 15px;
+  padding-right: 2em;
   position: relative;
   font-family: "Oswald", Arial, sans-serif;
   text-transform: uppercase;
@@ -8261,7 +8256,7 @@ h1, h2, h3, h4, h5,
     -ms-transform: skewX(-40deg);
     transform: skewX(-40deg);
     -webkit-transform: skewX(-40deg);
-    background: #171b21;
+    background: #000000;
     position: absolute;
     right: -33px;
     top: -20px;
@@ -8543,7 +8538,7 @@ h1, h2, h3, h4, h5,
     -ms-transform: skewX(-40deg);
     transform: skewX(-40deg);
     -webkit-transform: skewX(-40deg);
-    background: #00bd56;
+    background: #0a0a0a;
     position: absolute;
     left: 50%;
     top: 0;
@@ -8605,7 +8600,7 @@ h1, h2, h3, h4, h5,
       transform: translateY(-50%);
       font-size: 40px;
       line-height: 1;
-      color: #000000; }
+      color: #fff; }
       @media (max-width: 767.98px) {
         .scoreboard .sport-team-wrap span.vs {
           left: 50px;
@@ -8636,7 +8631,7 @@ h1, h2, h3, h4, h5,
       .scoreboard .sport-team .score.win span {
         color: #000000; }
       .scoreboard .sport-team .score.lost span {
-        color: rgba(0, 0, 0, 0.4); }
+        color: rgba(255, 255, 255, 0.8); }
     .scoreboard .sport-team .team-name {
       font-size: 24px;
       font-weight: 700;
@@ -8727,7 +8722,7 @@ h1, h2, h3, h4, h5,
       border-radius: 50%;
       background: rgba(0, 0, 0, 0.1); }
       .ftco-game-schedule .owl-dots .owl-dot.active {
-        background: #00bd56; }
+        background: #007bff; }
 
 .game-sched {
   padding: 20px 0;
@@ -8930,7 +8925,7 @@ h1, h2, h3, h4, h5,
       border-radius: 50%;
       background: rgba(255, 255, 255, 0.1); }
       .ftco-team .owl-dots .owl-dot.active {
-        background: #00bd56; }
+        background: #007bff; }
 
 .team-wrap .img {
   width: 120px;
@@ -9001,7 +8996,7 @@ h1, h2, h3, h4, h5,
     -ms-transform: skewX(-40deg);
     transform: skewX(-40deg);
     -webkit-transform: skewX(-40deg);
-    background: #00bd56;
+    background: #000000;
     position: absolute;
     right: 50%;
     top: 0;
@@ -9164,7 +9159,7 @@ textarea.form-control {
       color: rgba(0, 0, 0, 0.7) !important; }
   .subscribe-form .form-group .submit {
     color: #000000 !important;
-    background: #00bd56 !important;
+    background: #007bff !important;
     border-radius: 0px 5px 5px 0px;
     font-size: 16px; }
     .subscribe-form .form-group .submit:hover {
@@ -9224,7 +9219,7 @@ textarea.form-control {
     display: block;
     float: left;
     background: rgba(255, 255, 255, 0.1);
-    background: #00bd56;
+    background: #007bff;
     border-radius: 50%;
     position: relative; }
     .ftco-footer-social li a span {
@@ -9337,7 +9332,7 @@ textarea.form-control {
   font-size: 50px;
   color: #fff; }
   .heading-section.heading-section-white h2 span {
-    color: #00bd56; }
+    color: #132446; }
 
 .heading-section.heading-section-white p {
   color: rgba(255, 255, 255, 0.9); }
@@ -9452,7 +9447,7 @@ textarea.form-control {
       -ms-border-radius: 50%;
       border-radius: 50%; }
       .testimony-wrap .user-img .quote i {
-        color: #00bd56; }
+        color: #0044cc;//edit }
   .testimony-wrap p {
     font-size: 20px; }
   .testimony-wrap .name {
